@@ -15,4 +15,4 @@ Slides and Demo of [the event](http://dev.bg/%D1%81%D1%8A%D0%B1%D0%B8%D1%82%D0%B
 
 1. A practical example of how to make our own monitoring solution using  `Docker`, `GitHub`, `NodeJS` and `TravisCI`
 
-1. I will share my experience of applying these approaches for more the last few years
+1. I will share my experience of applying these approaches for the last few years
