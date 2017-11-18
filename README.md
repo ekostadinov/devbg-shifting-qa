@@ -19,7 +19,7 @@ Slides and Demo of [the event](http://dev.bg/%D1%81%D1%8A%D0%B1%D0%B8%D1%82%D0%B
 
 1. A practical example of how to make our own monitoring solution using the following tech stack:
 
-<img src="./images/docker_logo.png" alt="Docker" width="150" height="50"> - as our container platform
+<img src="./images/docker_logo.png" alt="Docker" width="150" height="50"> - as our container platform, [acrisliu/jenkins-nodejs](https://hub.docker.com/r/acrisliu/jenkins-nodejs/) is used. Run `sudo docker start jenkins-devbg`.
 
 <img src="./images/nodejs_logo.png" alt="NodeJS" width="150" height="50"> - for JavaScript runtime environment
 
