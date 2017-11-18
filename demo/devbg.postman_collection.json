@@ -1,0 +1,33 @@
+{
+	"variables": [],
+	"info": {
+		"name": "devbg",
+		"_postman_id": "fffbc118-a138-d272-7c98-ed2e92a470c2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://services.groupkt.com/country/get/iso2code/BG",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"var jsonData = JSON.parse(responseBody);",
+							"tests[\"Response body contains correct country name for valid code!\"] = jsonData[\"RestResponse\"].result.name === \"Bulgaria\";"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "http://services.groupkt.com/country/get/iso2code/BG",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

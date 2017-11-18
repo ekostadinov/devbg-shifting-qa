@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+  - "iojs"
+  - "7"
+install:
+  - npm install -g newman
+script:
+    - newman run demo/devbg.postman_collection.json
+cache:
+  directories:
+    - "node_modules"
